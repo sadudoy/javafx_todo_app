@@ -1,4 +1,4 @@
-package com.examplecom.todolist;
+package com.todolist;
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -72,7 +72,6 @@ public class App extends Application {
 
 
         Scene scene = new Scene(root, 600, 500);
-        scene.getRoot().setStyle("-fx-base: #2b2b2b;");
         stage.setTitle("To-Do List");
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/todologo.png")));
         stage.setScene(scene);
