@@ -71,7 +71,7 @@ public class App extends Application {
         root.getChildren().addAll(label, totalTask, task, scrollPane);
 
 
-        Scene scene = new Scene(root, 600, 500);
+        Scene scene = new Scene(root, 450, 600);
         stage.setTitle("To-Do List");
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/todologo.png")));
         stage.setScene(scene);
